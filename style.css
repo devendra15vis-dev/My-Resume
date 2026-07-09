@@ -21,10 +21,20 @@ body {
     margin-bottom: 24px;
     
 }
+.div{
+    background-color: #111;
+    width: 200px;
+    height: 100px;
+    transition: 0.3s;    
+}
+div:hover{
+    background-color:white;
+    transform: scale(1.02);
 
+}
 .resume-header h1 {
     text-align: center;
-    margin: 12px;
+    margin: 20px;
     font-size: 2.2rem;
     letter-spacing: 0.04em;
 }
